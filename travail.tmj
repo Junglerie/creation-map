@@ -1383,8 +1383,8 @@
           "id": 1,
           "name": "",
           "visible": true,
-          "x": 115.020833333333,
-          "y": 47.1666666666667,
+          "x": 98.0208333333333,
+          "y": 48.1666666666667,
           "height": 19,
           "rotation": 0,
           "text": {
@@ -2097,7 +2097,7 @@
     {
       "columns": 7,
       "firstgid": 1,
-      "image": "travail-chunk-1-39377308.png",
+      "image": "travail-chunk-1-529516be.png",
       "imageheight": 224,
       "imagewidth": 224,
       "margin": 0,

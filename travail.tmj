@@ -1377,125 +1377,6 @@
       "y": 0
     },
     {
-      "name": "caseine zone",
-      "objects": [
-        {
-          "id": 1,
-          "name": "",
-          "visible": true,
-          "x": 98.0208333333333,
-          "y": 48.1666666666667,
-          "height": 19,
-          "rotation": 0,
-          "text": {
-            "text": "Zone de travail Caseine",
-            "wrap": true
-          },
-          "type": "",
-          "width": 263.291666666667
-        },
-        {
-          "id": 2,
-          "name": "website",
-          "visible": true,
-          "x": -0.166833333333329,
-          "y": 96.6105,
-          "height": 255.779,
-          "properties": [
-            {
-              "name": "dynamic",
-              "type": "bool",
-              "value": true
-            },
-            {
-              "name": "openTab",
-              "type": "string",
-              "value": ""
-            },
-            {
-              "name": "openWebsite",
-              "type": "string",
-              "value": "https://moodle.caseine.org/"
-            },
-            {
-              "name": "openWebsiteTrigger",
-              "type": "string",
-              "value": "onaction"
-            },
-            {
-              "name": "openWebsiteTriggerMessage",
-              "type": "string",
-              "value": "Press SPACE or touch here to open a custom website"
-            }
-          ],
-          "rotation": 0,
-          "type": "area",
-          "width": 417.667
-        },
-        {
-          "id": 3,
-          "name": "to-office",
-          "visible": true,
-          "x": -0.666683333333339,
-          "y": 383.66665,
-          "height": 64.6667,
-          "properties": [
-            {
-              "name": "exitUrl",
-              "type": "string",
-              "value": "map.tmj#from-travail"
-            }
-          ],
-          "rotation": 0,
-          "type": "area",
-          "width": 30.6667
-        },
-        {
-          "id": 4,
-          "name": "from-office",
-          "visible": true,
-          "x": 63.9999833333333,
-          "y": 383.000016666667,
-          "height": 35.3333,
-          "properties": [
-            {
-              "name": "start",
-              "type": "bool",
-              "value": true
-            }
-          ],
-          "rotation": 0,
-          "type": "area",
-          "width": 34.6667
-        },
-        {
-          "id": 5,
-          "name": "silentZone",
-          "visible": true,
-          "x": 1,
-          "y": 95.5,
-          "height": 256,
-          "properties": [
-            {
-              "name": "silent",
-              "type": "bool",
-              "value": true
-            }
-          ],
-          "rotation": 0,
-          "type": "area",
-          "width": 415
-        }
-      ],
-      "opacity": 1,
-      "type": "objectgroup",
-      "visible": true,
-      "draworder": "topdown",
-      "id": 6,
-      "x": 0,
-      "y": 0
-    },
-    {
       "name": "Composants",
       "opacity": 1,
       "type": "group",
@@ -2090,14 +1971,133 @@
       "id": 12,
       "x": 0,
       "y": 0
+    },
+    {
+      "name": "caseine zone",
+      "objects": [
+        {
+          "id": 1,
+          "name": "",
+          "visible": true,
+          "x": 98.0208333333333,
+          "y": 48.1666666666667,
+          "height": 19,
+          "rotation": 0,
+          "text": {
+            "text": "Zone de travail Caseine",
+            "wrap": true
+          },
+          "type": "",
+          "width": 263.291666666667
+        },
+        {
+          "id": 2,
+          "name": "website",
+          "visible": true,
+          "x": -0.166833333333329,
+          "y": 96.6105,
+          "height": 255.779,
+          "properties": [
+            {
+              "name": "dynamic",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "name": "openTab",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "name": "openWebsite",
+              "type": "string",
+              "value": "https://moodle.caseine.org/"
+            },
+            {
+              "name": "openWebsiteTrigger",
+              "type": "string",
+              "value": "onaction"
+            },
+            {
+              "name": "openWebsiteTriggerMessage",
+              "type": "string",
+              "value": "Press SPACE or touch here to open a custom website"
+            }
+          ],
+          "rotation": 0,
+          "type": "area",
+          "width": 417.667
+        },
+        {
+          "id": 3,
+          "name": "to-office",
+          "visible": true,
+          "x": -0.666683333333339,
+          "y": 383.66665,
+          "height": 64.6667,
+          "properties": [
+            {
+              "name": "exitUrl",
+              "type": "string",
+              "value": "map.tmj#from-travail"
+            }
+          ],
+          "rotation": 0,
+          "type": "area",
+          "width": 30.6667
+        },
+        {
+          "id": 4,
+          "name": "from-office",
+          "visible": true,
+          "x": 63.9999833333333,
+          "y": 383.000016666667,
+          "height": 35.3333,
+          "properties": [
+            {
+              "name": "start",
+              "type": "bool",
+              "value": true
+            }
+          ],
+          "rotation": 0,
+          "type": "area",
+          "width": 34.6667
+        },
+        {
+          "id": 5,
+          "name": "silentZone",
+          "visible": true,
+          "x": 1,
+          "y": 95.5,
+          "height": 256,
+          "properties": [
+            {
+              "name": "silent",
+              "type": "bool",
+              "value": true
+            }
+          ],
+          "rotation": 0,
+          "type": "area",
+          "width": 415
+        }
+      ],
+      "opacity": 1,
+      "type": "objectgroup",
+      "visible": true,
+      "draworder": "topdown",
+      "id": 6,
+      "x": 0,
+      "y": 0
     }
   ],
-  "tiledversion": "git",
+  "tiledversion": "1.10.1",
   "tilesets": [
     {
       "columns": 7,
       "firstgid": 1,
-      "image": "travail-chunk-1-d2cd4d30.png",
+      "image": "travail-chunk-1-5289cfa6.png",
       "imageheight": 224,
       "imagewidth": 224,
       "margin": 0,

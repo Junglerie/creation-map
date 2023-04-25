@@ -4236,7 +4236,7 @@
             {
               "name": "exitUrl",
               "type": "string",
-              "value": "map.tmj#from-office"
+              "value": "map.tmj#from-campus"
             }
           ],
           "rotation": 0,
@@ -5082,7 +5082,7 @@
     {
       "columns": 11,
       "firstgid": 1,
-      "image": "campus-chunk-1-1eccfbab.png",
+      "image": "campus-chunk-1-2a21e818.png",
       "imageheight": 352,
       "imagewidth": 352,
       "margin": 0,

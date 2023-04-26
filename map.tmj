@@ -620,6 +620,11 @@
          "name":"script",
          "type":"string",
          "value":"src\/main.ts"
+        }, 
+        {
+         "name":"turorial",
+         "type":"bool",
+         "value":true
         }],
  "renderorder":"right-down",
  "tiledversion":"git",

@@ -1973,7 +1973,7 @@
       "y": 0
     },
     {
-      "name": "caseine zone",
+      "name": "floorLayer",
       "objects": [
         {
           "id": 1,
@@ -2303,7 +2303,7 @@
     {
       "columns": 7,
       "firstgid": 1,
-      "image": "travail-chunk-1-7442e752.png",
+      "image": "travail-chunk-1-24f1d288.png",
       "imageheight": 224,
       "imagewidth": 224,
       "margin": 0,

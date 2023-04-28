@@ -338,38 +338,6 @@
                 }, 
                 {
                  "height":128,
-                 "id":13,
-                 "name":"Zone de repos",
-                 "properties":[
-                        {
-                         "name":"focusable",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"jitsiRoom",
-                         "type":"string",
-                         "value":"ChillZone"
-                        }, 
-                        {
-                         "name":"jitsiTrigger",
-                         "type":"string",
-                         "value":"onaction"
-                        }, 
-                        {
-                         "name":"zoom_margin",
-                         "type":"float",
-                         "value":1
-                        }],
-                 "rotation":0,
-                 "type":"area",
-                 "visible":true,
-                 "width":222.5,
-                 "x":32,
-                 "y":128.666666666667
-                }, 
-                {
-                 "height":128,
                  "id":14,
                  "name":"silentZone",
                  "properties":[
@@ -431,7 +399,7 @@
                 {
                  "height":32,
                  "id":20,
-                 "name":"from-travail",
+                 "name":"from-quizzroom",
                  "properties":[
                         {
                          "name":"start",
@@ -448,12 +416,12 @@
                 {
                  "height":64,
                  "id":21,
-                 "name":"to-travail",
+                 "name":"to-quizzroom",
                  "properties":[
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":"travail.tmj#from-office"
+                         "value":"quizzroom.tmj#from-office"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -475,8 +443,8 @@
                  "type":"",
                  "visible":true,
                  "width":120.625,
-                 "x":792.6875,
-                 "y":160.833333333333
+                 "x":37.6875,
+                 "y":532.833333333333
                 }, 
                 {
                  "height":64,
@@ -486,7 +454,7 @@
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":"campus.tmj#from-office"
+                         "value":"java.tmj#from-office"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -498,7 +466,7 @@
                 {
                  "height":32,
                  "id":24,
-                 "name":"from-campus",
+                 "name":"from-java",
                  "properties":[
                         {
                          "name":"start",
@@ -511,6 +479,54 @@
                  "width":32,
                  "x":64.6933617392148,
                  "y":542.129085362901
+                }, 
+                {
+                 "height":19,
+                 "id":26,
+                 "name":"",
+                 "rotation":0,
+                 "text":
+                    {
+                     "text":"Vers Quizz Room",
+                     "wrap":true
+                    },
+                 "type":"",
+                 "visible":true,
+                 "width":160.625,
+                 "x":780.354166666667,
+                 "y":149.833333333333
+                }, 
+                {
+                 "height":121,
+                 "id":27,
+                 "name":"Zone de r\u00e9union",
+                 "properties":[
+                        {
+                         "name":"focusable",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"chillZone"
+                        }, 
+                        {
+                         "name":"jitsiTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"zoom_margin",
+                         "type":"float",
+                         "value":1
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":217,
+                 "x":34,
+                 "y":132
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -593,19 +609,9 @@
          "y":0
         }],
  "nextlayerid":63,
- "nextobjectid":25,
+ "nextobjectid":28,
  "orientation":"orthogonal",
  "properties":[
-        {
-         "name":"mapCopyright",
-         "type":"string",
-         "value":"Credits: WorkAdventure (https:\/\/WorkAdventu.re) \nLicense: CC-BY-SA 3.0 (http:\/\/creativecommons.org\/licenses\/by-sa\/3.0\/)"
-        }, 
-        {
-         "name":"mapDescription",
-         "type":"string",
-         "value":"A perfect virtual office to get started with WorkAdventure!"
-        }, 
         {
          "name":"mapImage",
          "type":"string",
@@ -620,11 +626,6 @@
          "name":"script",
          "type":"string",
          "value":"src\/main.ts"
-        }, 
-        {
-         "name":"turorial",
-         "type":"bool",
-         "value":true
         }],
  "renderorder":"right-down",
  "tiledversion":"git",

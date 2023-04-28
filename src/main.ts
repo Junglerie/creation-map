@@ -26,6 +26,46 @@ WA.onInit().then(() => {
 
 }).catch(e => console.error(e));
 
+WA.onInit().then(() => {
+    console.log('Scripting API ready');
+    console.log('Player tags: ',WA.player.tags)
+
+    const myLayerSubscriber = WA.room.area.onEnter("hello").subscribe(() => {
+        WA.chat.sendChatMessage("Hello!", "Mr Robot");
+    });
+
+    WA.room.area.onLeave("hello").subscribe(() => {
+        WA.chat.sendChatMessage("Goodbye!", "Mr Robot");
+        myLayerSubscriber.unsubscribe();
+    });
+
+    // WA.room.area.onEnter('hello').subscribe(() => {
+    //     currentPopup = WA.ui.openPopup("helloPopup", "Bonjour Sam !", []);
+    // })
+
+    WA.room.area.onLeave('hello').subscribe(closePopup)
+
+    // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
+    bootstrapExtra().then(() => {
+        console.log('Scripting API Extra ready');
+    }).catch(e => console.error(e));
+
+}).catch(e => console.error(e));
+
+WA.onInit().then(() => {
+
+    WA.room.area.onEnter('SQL').subscribe(() => {
+        // WA.nav.goToRoom('https://play.workadventu.re/_/v4iaualx1zm/localhost:5173/exo1.tmj#from-java');
+        WA.nav.goToRoom('https://play.junglerie.me/_/global/junglerie.github.io/creation-map/exo1.tmj');
+    })
+
+    // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
+    bootstrapExtra().then(() => {
+        console.log('Scripting API Extra ready');
+    }).catch(e => console.error(e));
+
+}).catch(e => console.error(e));
+
 function closePopup(){
     if (currentPopup !== undefined) {
         currentPopup.close();

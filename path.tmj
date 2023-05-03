@@ -21159,6 +21159,24 @@
           "rotation": 0,
           "type": "area",
           "width": 95.6666666666667
+        },
+        {
+          "id": 5,
+          "name": "to-cours",
+          "visible": true,
+          "x": 1.49998333333338,
+          "y": 262.166666666667,
+          "height": 149,
+          "properties": [
+            {
+              "name": "exitUrl",
+              "type": "string",
+              "value": "cours.tmj#from-path"
+            }
+          ],
+          "rotation": 0,
+          "type": "area",
+          "width": 29.0000333333333
         }
       ],
       "opacity": 1,
@@ -24188,7 +24206,7 @@
     {
       "columns": 9,
       "firstgid": 1,
-      "image": "path-chunk-1-05b49083.png",
+      "image": "path-chunk-1-510031ac.png",
       "imageheight": 288,
       "imagewidth": 288,
       "margin": 0,
@@ -24227,7 +24245,7 @@
   "height": 20,
   "infinite": false,
   "nextlayerid": 11,
-  "nextobjectid": 5,
+  "nextobjectid": 6,
   "orientation": "orthogonal",
   "renderorder": "right-down",
   "tileheight": 32,

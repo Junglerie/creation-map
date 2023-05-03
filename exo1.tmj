@@ -518,7 +518,7 @@
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":"map.tmj#from-exo1"
+                         "value":"start.tmj#from-exo1"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -610,7 +610,7 @@
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":"java.tmj#from-exo1"
+                         "value":"LVLchoices.tmj#from-exo1"
                         }],
                  "rotation":0,
                  "type":"area",

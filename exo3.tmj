@@ -693,7 +693,7 @@
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":"map.tmj#from-exo1"
+                         "value":"start.tmj#from-exo1"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -720,7 +720,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/moodle.caseine.org\/course\/view.php?id=661&section=3"
+                         "value":"https:\/\/moodle.caseine.org\/course\/view.php?id=661&section=5"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
@@ -785,7 +785,7 @@
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":"java.tmj#from-exo1"
+                         "value":"LVLchoices.tmj#from-exo1"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -851,12 +851,12 @@
                 {
                  "height":31.5,
                  "id":14,
-                 "name":"to-java",
+                 "name":"to-LVLchoices",
                  "properties":[
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":"java.tmj#from-exo1"
+                         "value":"LVLchoices.tmj#from-exo3"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -897,7 +897,7 @@
          "name":"porte_ouverte",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":10,
          "x":0,
          "y":0

@@ -175,50 +175,11 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/exo1.tmj"
+                 "value":"exo1.tmj"
                 }],
          "type":"tilelayer",
          "visible":true,
          "width":29,
-         "x":0,
-         "y":0
-        }, 
-        {
-         "draworder":"topdown",
-         "id":23,
-         "name":"exit1",
-         "objects":[
-                {
-                 "height":36.6666666666667,
-                 "id":5,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"exitUrl",
-                         "type":"string",
-                         "value":"exo1.tmj"
-                        }],
-                 "rotation":0,
-                 "type":"area",
-                 "visible":true,
-                 "width":30,
-                 "x":321.333333333333,
-                 "y":30.6666666666667
-                }, 
-                {
-                 "height":0,
-                 "id":6,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":0,
-                 "x":623.333333333333,
-                 "y":186.666666666667
-                }],
-         "opacity":1,
-         "type":"objectgroup",
-         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -727,7 +688,7 @@
          "value":"src\/main.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.10.1",
+ "tiledversion":"git",
  "tileheight":32,
  "tilesets":[
         {

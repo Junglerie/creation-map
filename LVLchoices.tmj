@@ -202,7 +202,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/exo1.tmj"
+                 "value":"exo1.tmj"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -715,7 +715,7 @@
          "value":"src\/main.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.10.1",
+ "tiledversion":"git",
  "tileheight":32,
  "tilesets":[
         {

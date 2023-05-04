@@ -24184,7 +24184,7 @@
             {
               "name": "exitUrl",
               "type": "string",
-              "value": "cours.tmj#from-path"
+              "value": "cours.tmj#from-pathDev"
             }
           ],
           "rotation": 0,
@@ -24193,7 +24193,7 @@
         },
         {
           "id": 6,
-          "name": "to-LVLchoices",
+          "name": "to-LVLchoicesPython",
           "visible": true,
           "x": 641.16665,
           "y": 192.5,
@@ -24202,7 +24202,7 @@
             {
               "name": "exitUrl",
               "type": "string",
-              "value": "LVLchoices.tmj#from-path"
+              "value": "LVLchoicesPython.tmj#from-path"
             }
           ],
           "rotation": 0,
@@ -24211,7 +24211,7 @@
         },
         {
           "id": 7,
-          "name": "from-LVLchoices",
+          "name": "from-LVLchoicesPython",
           "visible": true,
           "x": 671,
           "y": 289,
@@ -30286,7 +30286,7 @@
     {
       "columns": 12,
       "firstgid": 1,
-      "image": "path-chunk-1-f784d697.png",
+      "image": "pathDev-chunk-1-e1a0fbf8.png",
       "imageheight": 384,
       "imagewidth": 384,
       "margin": 0,

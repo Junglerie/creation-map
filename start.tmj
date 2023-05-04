@@ -387,7 +387,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/www.youtube.com\/embed\/videoseries?list=PLn6POgpklwWqVFAFrjnpXGhjveRUTHGa_"
+                 "value":"replay.html"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -424,7 +424,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/calendar.google.com\/calendar\/embed?src=campus.num.gre%40gmail.com&ctz=Europe%2FParis"
+                 "value":"info_cours.html"
                 }],
          "type":"tilelayer",
          "visible":true,

@@ -513,7 +513,7 @@
                 {
                  "height":32,
                  "id":7,
-                 "name":"to-office",
+                 "name":"to-start",
                  "properties":[
                         {
                          "name":"exitUrl",
@@ -605,7 +605,7 @@
                 {
                  "height":31.5,
                  "id":11,
-                 "name":"to-java",
+                 "name":"to-LVLchoices",
                  "properties":[
                         {
                          "name":"exitUrl",

@@ -331,7 +331,7 @@
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":"cours.tmj#from-path"
+                         "value":"cours.tmj#from-pathDev"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -343,12 +343,12 @@
                 {
                  "height":33,
                  "id":6,
-                 "name":"to-LVLchoices",
+                 "name":"to-LVLchoicesPython",
                  "properties":[
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":"LVLchoices.tmj#from-path"
+                         "value":"LVLchoicesPython.tmj#from-path"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -360,7 +360,7 @@
                 {
                  "height":34,
                  "id":7,
-                 "name":"from-LVLchoices",
+                 "name":"from-LVLchoicesPython",
                  "properties":[
                         {
                          "name":"start",

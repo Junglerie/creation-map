@@ -688,7 +688,7 @@
                 {
                  "height":32,
                  "id":7,
-                 "name":"to-office",
+                 "name":"to-start",
                  "properties":[
                         {
                          "name":"exitUrl",
@@ -780,12 +780,12 @@
                 {
                  "height":31.5,
                  "id":11,
-                 "name":"to-java",
+                 "name":"to-LVLchoices",
                  "properties":[
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":"LVLchoices.tmj#from-exo1"
+                         "value":"LVLchoices.tmj#from-exo3"
                         }],
                  "rotation":0,
                  "type":"area",

@@ -680,7 +680,7 @@
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":"path.tmj#from-LVLchoices"
+                         "value":"path.tmj#from-LVLchoicesPython"
                         }],
                  "rotation":0,
                  "type":"area",

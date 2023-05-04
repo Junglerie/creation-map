@@ -675,12 +675,12 @@
                 {
                  "height":43.6290726817043,
                  "id":11,
-                 "name":"to-pathDev",
+                 "name":"to-path",
                  "properties":[
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":"pathDev.tmj#from-LVLchoices"
+                         "value":"path.tmj#from-LVLchoices"
                         }],
                  "rotation":0,
                  "type":"area",

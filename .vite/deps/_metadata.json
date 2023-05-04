@@ -1,0 +1,13 @@
+{
+  "hash": "00009825",
+  "browserHash": "b5d44ab4",
+  "optimized": {
+    "@workadventure/scripting-api-extra": {
+      "src": "../../node_modules/@workadventure/scripting-api-extra/dist/index.js",
+      "file": "@workadventure_scripting-api-extra.js",
+      "fileHash": "7d2ba15e",
+      "needsInterop": false
+    }
+  },
+  "chunks": {}
+}
